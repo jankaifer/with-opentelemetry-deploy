@@ -3,7 +3,7 @@ lockfileVersion: '6.0'
 dependencies:
   '@vercel/otel':
     specifier: github:vercel/otel#with-dist
-    version: github.com/vercel/otel/2ec3798cb21b57c25ffb383ed27ad6aac38833ae
+    version: github.com/vercel/otel/f1746b61a6c93028f82a966e7c17323ad443aa26
   next:
     specifier: 13.2.5-canary.21
     version: 13.2.5-canary.21(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
@@ -665,8 +665,8 @@ packages:
       yargs-parser: 20.2.9
     dev: false
 
-  github.com/vercel/otel/2ec3798cb21b57c25ffb383ed27ad6aac38833ae:
-    resolution: {tarball: https://codeload.github.com/vercel/otel/tar.gz/2ec3798cb21b57c25ffb383ed27ad6aac38833ae}
+  github.com/vercel/otel/f1746b61a6c93028f82a966e7c17323ad443aa26:
+    resolution: {tarball: https://codeload.github.com/vercel/otel/tar.gz/f1746b61a6c93028f82a966e7c17323ad443aa26}
     name: '@vercel/otel'
     version: 0.0.3
     engines: {node: '>=16'}
