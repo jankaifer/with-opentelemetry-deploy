@@ -7,15 +7,6 @@
     "start:otel-verbose": "NEXT_OTEL_VERBOSE=1 next start"
   },
   "dependencies": {
-    "@opentelemetry/api": "latest",
-    "@opentelemetry/core": "latest",
-    "@opentelemetry/resources": "latest",
-    "@opentelemetry/sdk-trace-base": "latest",
-    "@opentelemetry/sdk-trace-node": "latest",
-    "@opentelemetry/semantic-conventions": "latest",
-    "@opentelemetry/exporter-trace-otlp-grpc": "latest",
-    "@opentelemetry/exporter-trace-otlp-http": "latest",
-    "@vercel/og": "^0.5.0",
     "@vercel/otel": "github:vercel/otel#with-dist",
     "next": "13.2.5-canary.21",
     "react": "^18.2.0",
