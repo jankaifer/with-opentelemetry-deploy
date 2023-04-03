@@ -7,8 +7,8 @@
     "start:otel-verbose": "NEXT_OTEL_VERBOSE=1 next start"
   },
   "dependencies": {
-    "@vercel/otel": "github:vercel/otel#with-dist",
-    "next": "13.2.5-canary.21",
+    "@vercel/otel": "^0.0.15",
+    "next": "13.2.5-canary.28",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

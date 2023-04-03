@@ -2,11 +2,11 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@vercel/otel':
-    specifier: github:vercel/otel#with-dist
-    version: github.com/vercel/otel/f1746b61a6c93028f82a966e7c17323ad443aa26
+    specifier: ^0.0.15
+    version: 0.0.15
   next:
-    specifier: 13.2.5-canary.21
-    version: 13.2.5-canary.21(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 13.2.5-canary.28
+    version: 13.2.5-canary.28(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -47,12 +47,12 @@ packages:
       yargs: 16.2.0
     dev: false
 
-  /@next/env@13.2.5-canary.21:
-    resolution: {integrity: sha512-xIlcFucSwOvTJiYp5j7b0WtIzapVm3MXss05wkJtE8LVzhO9orSE0zElB9YdZ4tvNk+5gN1MqLI8SOnqpUcSeA==}
+  /@next/env@13.2.5-canary.28:
+    resolution: {integrity: sha512-+E7HJzP7SgSjrEBBv3s+ED6sLf6MFedshE5RnxjSuG9GlQ6VCWj+EL1mEAl+0FELFP7Nw+l1tX+OvTAq23PT/Q==}
     dev: false
 
-  /@next/swc-darwin-arm64@13.2.5-canary.21:
-    resolution: {integrity: sha512-904C+nYkyaEVWtLW4zOqP9nzF+oz/VoEeWbRYn8LTlBimN2wmD2gXqJAWUSt8cQ2oveAOVGbSNpvH7kltCpixw==}
+  /@next/swc-darwin-arm64@13.2.5-canary.28:
+    resolution: {integrity: sha512-YauFOkd8JFtwjaNZQrj5LvcZs7gsF/WZ/cesJXZlpQycTK9HEaU5b3T8Lt3EKqg/j72BiPOBQC6Fe+su3LQnwA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
@@ -60,8 +60,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-darwin-x64@13.2.5-canary.21:
-    resolution: {integrity: sha512-BAM2LNgiG3M79lKayzxo5cm5DSOrPZcUgX++2wEI96oqwVn2W3rmpZwQGdkHTM1R61Oo9lPIyjT5SFRD2XbEIQ==}
+  /@next/swc-darwin-x64@13.2.5-canary.28:
+    resolution: {integrity: sha512-tmrrLzAy/ZKBvyJD0Bsu5Ex0zUL+lM6vT45nJVEvXNE7DzEriyX0oWEAacAPr4vyFoHafMpxQGRJItBWUYCRAA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
@@ -69,8 +69,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-arm64-gnu@13.2.5-canary.21:
-    resolution: {integrity: sha512-75QyUGM+r41AVioZ/jyBIsg+SixAV2ziCHhkRuwvyJ+cz6MZJRNgoC36BwcFkwHec6hVDXEpfuUs2mSQJ5vxrQ==}
+  /@next/swc-linux-arm64-gnu@13.2.5-canary.28:
+    resolution: {integrity: sha512-mIWSKMRmPJQNf6MXiPV0WUb3qnSKB9gE88KSng0pTaTbXCHlVwdrIPD3MqtOaLK0JDRihoTxomkwBFQx+r0mrg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -78,8 +78,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-arm64-musl@13.2.5-canary.21:
-    resolution: {integrity: sha512-SYFLkm8xFnnfeAkf/m22b5TO0HkSNE7gzE0Snvmf8zgdvbNuH/QzaKizNf5o67FGzZahpXClC6SxjoGJhauXkQ==}
+  /@next/swc-linux-arm64-musl@13.2.5-canary.28:
+    resolution: {integrity: sha512-nz3zq6f7sLOtBZLgv1Qh7G/eZcuInh/3vyRJ0F1KH8fPoEigwiOYCnPm1IEJxxTaZCrj0awty+fzOFzxLlUiyQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -87,8 +87,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-x64-gnu@13.2.5-canary.21:
-    resolution: {integrity: sha512-cJeaqyRn7EXoQMzgQW4W2xKKWAbHNsBjuXyNgSpOq+oVnq7tGWc2hlap4j5XhKvqHxLg3wUDfIq5HWNEcVlO4A==}
+  /@next/swc-linux-x64-gnu@13.2.5-canary.28:
+    resolution: {integrity: sha512-BxU7d/XRggAPRK77KudD5/iI8ku9Qc08hvBd6wpKfT3/IYvcbfJaPxEChdMw1kd0iWZ19sHvC6lKgxgZuNQslg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -96,8 +96,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-linux-x64-musl@13.2.5-canary.21:
-    resolution: {integrity: sha512-cl4EOWPEqfdl/5wBHS2fY9ZqbqA3/StF5QzEqkTj1Sc7dBredtpucCJI6nr7sPyH73pg45KkuSHtrbuU8OOKGQ==}
+  /@next/swc-linux-x64-musl@13.2.5-canary.28:
+    resolution: {integrity: sha512-xyrwlG9yaFIHlMHo4vHfREbW43kic1LHlH3QYYOVtG1jkOmHlYLgCPl0O69VkKAH4gzD3nZo+bdQAprs6DNAmQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -105,8 +105,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-win32-arm64-msvc@13.2.5-canary.21:
-    resolution: {integrity: sha512-YxUuG2tVHomQz/T3gplsI86alJLBeSXatWaKkxzw11pHqRKWbov47941OgTlsBSCx4O4ZtZJp4v9p5tRfDY3Kg==}
+  /@next/swc-win32-arm64-msvc@13.2.5-canary.28:
+    resolution: {integrity: sha512-VxC3ltPBDgV1MWizRwpTX8N0V7OKyolPAWLefszSRR7sOmCr1PykeaK4cviAb5RIVN8pRhYxNVCH0mdmCgOSmQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
@@ -114,8 +114,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-win32-ia32-msvc@13.2.5-canary.21:
-    resolution: {integrity: sha512-lXEOwR4C4weHndgLNN82zQFXQZ686zMVHrG6gXPJ6xGOe2Xtx17yWd/5kyBQEsFApn3MJg35gL1BXe9aIyp1CQ==}
+  /@next/swc-win32-ia32-msvc@13.2.5-canary.28:
+    resolution: {integrity: sha512-2XMaBSN1t5nUGwg/2/JubH6X2nUdchhPEUtuwcEQQiWOrTzk10kd2h+TzjRH5OR7eHfU+T+PogP049eYUdwopw==}
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
@@ -123,8 +123,8 @@ packages:
     dev: false
     optional: true
 
-  /@next/swc-win32-x64-msvc@13.2.5-canary.21:
-    resolution: {integrity: sha512-toLyqnYGZYFqIGe6VsJMavLzRaEWwqLERsrfSSUJ3BVdOfYKpJ7qF3kb/dBiK8ii75Pl0gPXbVYTzVX7KdMhRw==}
+  /@next/swc-win32-x64-msvc@13.2.5-canary.28:
+    resolution: {integrity: sha512-QTjo+f819sd1+R4b21ZN8IuU+/YxX8uDBXyXUqo53Z0Ty3RUdcRL9CkZF/1zO5BdFVH/48OJkN1TbIFSzjfw0Q==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -354,6 +354,18 @@ packages:
     resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}
     dev: true
 
+  /@vercel/otel@0.0.15:
+    resolution: {integrity: sha512-9YWW0RBpTXqifXLsLf0CJe2PzJd9OZSOiB4iEXzw0NnzU7/F2YVukaXPkvl0NYdH3nlrr8Z+rllFj21xJkaNnQ==}
+    engines: {node: '>=16'}
+    dependencies:
+      '@opentelemetry/api': 1.4.1
+      '@opentelemetry/exporter-trace-otlp-grpc': 0.36.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/resources': 1.10.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/sdk-trace-base': 1.10.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/sdk-trace-node': 1.10.1(@opentelemetry/api@1.4.1)
+      '@opentelemetry/semantic-conventions': 1.10.1
+    dev: false
+
   /ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
@@ -463,8 +475,8 @@ packages:
     hasBin: true
     dev: false
 
-  /next@13.2.5-canary.21(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-MIBaOdTOHtX+HuopMl8+sJVFUAf4Ay4Srx51ytjLJFbHWQdxZlkUVV5nrgdk112AnAhWThNiO+8wAkz5M4Gojg==}
+  /next@13.2.5-canary.28(@opentelemetry/api@1.4.1)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Sa+jXuVq9mdLxugUuxeuTxinuvgb5yA/q8DvAUHg7urQZgUk2ySsHwNQSasCwCwZQcCuTs+hDLJOBF2ZCTiRaw==}
     engines: {node: '>=14.6.0'}
     hasBin: true
     peerDependencies:
@@ -484,7 +496,7 @@ packages:
       sass:
         optional: true
     dependencies:
-      '@next/env': 13.2.5-canary.21
+      '@next/env': 13.2.5-canary.28
       '@opentelemetry/api': 1.4.1
       '@swc/helpers': 0.4.14
       busboy: 1.6.0
@@ -494,15 +506,15 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
       styled-jsx: 5.1.1(react@18.2.0)
     optionalDependencies:
-      '@next/swc-darwin-arm64': 13.2.5-canary.21
-      '@next/swc-darwin-x64': 13.2.5-canary.21
-      '@next/swc-linux-arm64-gnu': 13.2.5-canary.21
-      '@next/swc-linux-arm64-musl': 13.2.5-canary.21
-      '@next/swc-linux-x64-gnu': 13.2.5-canary.21
-      '@next/swc-linux-x64-musl': 13.2.5-canary.21
-      '@next/swc-win32-arm64-msvc': 13.2.5-canary.21
-      '@next/swc-win32-ia32-msvc': 13.2.5-canary.21
-      '@next/swc-win32-x64-msvc': 13.2.5-canary.21
+      '@next/swc-darwin-arm64': 13.2.5-canary.28
+      '@next/swc-darwin-x64': 13.2.5-canary.28
+      '@next/swc-linux-arm64-gnu': 13.2.5-canary.28
+      '@next/swc-linux-arm64-musl': 13.2.5-canary.28
+      '@next/swc-linux-x64-gnu': 13.2.5-canary.28
+      '@next/swc-linux-x64-musl': 13.2.5-canary.28
+      '@next/swc-win32-arm64-msvc': 13.2.5-canary.28
+      '@next/swc-win32-ia32-msvc': 13.2.5-canary.28
+      '@next/swc-win32-x64-msvc': 13.2.5-canary.28
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
@@ -663,18 +675,4 @@ packages:
       string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 20.2.9
-    dev: false
-
-  github.com/vercel/otel/f1746b61a6c93028f82a966e7c17323ad443aa26:
-    resolution: {tarball: https://codeload.github.com/vercel/otel/tar.gz/f1746b61a6c93028f82a966e7c17323ad443aa26}
-    name: '@vercel/otel'
-    version: 0.0.3
-    engines: {node: '>=16'}
-    dependencies:
-      '@opentelemetry/api': 1.4.1
-      '@opentelemetry/exporter-trace-otlp-grpc': 0.36.1(@opentelemetry/api@1.4.1)
-      '@opentelemetry/resources': 1.10.1(@opentelemetry/api@1.4.1)
-      '@opentelemetry/sdk-trace-base': 1.10.1(@opentelemetry/api@1.4.1)
-      '@opentelemetry/sdk-trace-node': 1.10.1(@opentelemetry/api@1.4.1)
-      '@opentelemetry/semantic-conventions': 1.10.1
     dev: false
