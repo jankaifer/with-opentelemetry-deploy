@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@vercel/otel": "^0.0.15",
-    "next": "13.2.5-canary.28",
+    "next": "file:next-13.2.5-canary.28.tgz",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
